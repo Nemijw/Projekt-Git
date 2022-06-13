@@ -1,6 +1,10 @@
-#btn1, #btn2, #btn3 {
+.btn btn-primary{
     background-color: black;
     font-size: x-large;
     color: aliceblue; 
-     
+    border-color: aliceblue;
+}
+
+body{
+    background-color: black;
 }
