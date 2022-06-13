@@ -1,26 +1,32 @@
-document.getElementById("bulb1").addEventListener("click", function(){
-    var bulb1img = document.getElementById("bulb1img");
-    if(bulb1img.style.display == "none"){
-        bulb1img.style.display = "block";
-    }else{
-        bulb1img.style.display = "none";
+document.getElementById("bulb1").addEventListener("click", function(){ 
+    let bild = document.getElementById("bulb1img");
+if(bild.getAttribute("src") == "Images/Släckt lampa.png")
+{
+    bild.src = "Images/Tänd lampa.png";
+}else
+    {
+        bild.src = "Images/Släckt lampa.png";
     }
 });
 
-document.getElementById("bulb2").addEventListener("click", function(){
-    var bulb1img = document.getElementById("bulb2img");
-    if(bulb1img.style.display == "none"){
-        bulb1img.style.display = "block";
-    }else{
-        bulb1img.style.display = "none";
+document.getElementById("bulb2").addEventListener("click", function(){ 
+    let bild = document.getElementById("bulb2img");
+if(bild.getAttribute("src") == "Images/Släckt lampa.png")
+{
+    bild.src = "Images/Tänd lampa.png";
+}else
+    {
+        bild.src = "Images/Släckt lampa.png";
     }
 });
 
-document.getElementById("bulb3").addEventListener("click", function(){
-    var bulb1img = document.getElementById("bulb3img");
-    if(bulb1img.style.display == "none"){
-        bulb1img.style.display = "block";
-    }else{
-        bulb1img.style.display = "none";
+document.getElementById("bulb3").addEventListener("click", function(){ 
+    let bild = document.getElementById("bulb3img");
+if(bild.getAttribute("src") == "Images/Släckt lampa.png")
+{
+    bild.src = "Images/Tänd lampa.png";
+}else
+    {
+        bild.src = "Images/Släckt lampa.png";
     }
 });
